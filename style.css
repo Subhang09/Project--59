@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    color: white;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    display: table;
+    background: linear-gradient(#2dc4cc, #e287e6);
+    z-index: 8;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#name {
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: firebrick;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.links:hover {
+    background-color: crimson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: fuchsia;
+    font-size: 23px;
+}
